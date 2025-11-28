@@ -2,7 +2,7 @@
 
 This repository contains an ESP-IDF component for the HCSR04 ultrasonic module with 2 bit data interface.This
 module contains an ultrasonic transmitter and receiver and can measure the distance. It runs on 
-any ESP32 processor and is built using the ESP-IDF build system in version 6.0+.
+any ESP32 processor and is built using the ESP-IDF build system in version 5.5+.
 
 The component is implemented as C++ class `Hcsr04Sensor`.
 
