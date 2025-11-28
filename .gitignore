@@ -33,9 +33,6 @@
 *.app
 
 # Directories
-build/
-managed_components/
+.idea/
+dist/
 
-/ultrasonic_distance/dependencies.lock
-/ultrasonic_distance/sdkconfig
-/ultrasonic_distance/sdkconfig.old
