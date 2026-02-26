@@ -1,7 +1,7 @@
-version: "1.0.5"
+version: "1.0.6"
 license: "MIT"
 description: "Ultrasonic distance sensor component for ESP-IDF version 5.5+ using a C++ class"
-url: "https://github.com/elrebo-de/hcsr04_sensor"
+url: "https://elrebo.de/index.php/2026/02/26/hcsr04_sensor/"
 issues: "https://github.com/elrebo-de/hcsr04_sensor/issues"
 repository: "https://github.com/elrebo-de/hcsr04_sensor.git"
 maintainers:
