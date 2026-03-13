@@ -1,6 +1,6 @@
-version: "1.0.6"
+version: "1.0.7"
 description: Ultrasonic Distance Sensor Example
 dependencies:
     elrebo-de/hcsr04_sensor:
-      version: "1.0.6"
+      version: "1.0.7"
       override_path: '../../../' # three levels up, pointing to the directory with the component itself
