@@ -14,11 +14,11 @@ static const char *tag = "ultrasonic_distance";
 extern "C" void app_main(void)
 {
      /* Configure the Ultrasonic module
-        assuming a development board using triggerPin 20 and echoPin 21 */
+        assuming an ESP32 M5Atom using triggerPin 26 and echoPin 32 */
      Hcsr04Sensor sensor(
          std::string("Water Level"), // Tag for ESP_LOG
-		 (gpio_num_t) 20, // triggerPin
-	     (gpio_num_t) 21, // echoPin
+		 (gpio_num_t) 26, // triggerPin
+	     (gpio_num_t) 32, // echoPin
 	     100.0); // maxDistance
 
     /* measure the distance every second for 10 seconds */
